@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="./images/favicon-32x32.png">
+    <!-- <link rel="stylesheet" href="./sass/main.css"> -->
+</head>
+<body>
+    <div class="container">
+        <div class="container-title">
+            <h1><span>SPLI</span> <span>TTER</span></h1>
+        </div>
+        
+        <div class="board">
+            <div class="container-board">
+                <h2>Bill</h2>
+                <div class="bill">
+                    <img src="./images/icon-dollar.svg" alt="">
+                    <input type="number" class="inp-bill" placeholder="0">
+                </div>
+                <h2>Select Tip %</h2>
+                <div class="grid">
+                    <input type="button" class="percentage" value="5%">
+                    <input type="button" class="percentage" value="10%">
+                    <input type="button" class="percentage" value="15%">
+                    <input type="button" class="percentage" value="25%">
+                    <input type="button" class="percentage" value="50%">
+                    <input type="number" class="percentage Very-light" placeholder="Custom">
+                </div>
+
+                <div class="amount-people">
+                    <h2>Number of People</h2>
+                    <p class="zero">Can't be zero</p>
+                </div>
+
+                <div class="people">               
+                    <img src="./images/icon-person.svg" alt="">
+                    <input type="number"  placeholder="0" class="number-people">
+                </div>
+            </div>
+            <div class="reset">
+                <div class="amount">
+                    <h3 class="p-amount"><span class="subt-amount">Tip Amount </span><span class="subt-pers">/ person</span></h3>
+                    <h3 class="t-amount"><span>$</span>0.00</h3>
+                </div>
+                <div class="total">
+                    <h3 class="p-tot"><span class="subt-tot">Total </span><span class="pers-tot">/ person</span></h3>
+                    <h3 class="total-pers"><span>$</span>0.00</h3>
+                </div>
+                <button id="reset">RESET</button>
+            </div>       
+        </div>
+    </div>
+
+
+</body>
+<script src="main.js"></script>
+</html>
